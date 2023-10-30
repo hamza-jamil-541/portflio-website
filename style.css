@@ -1,0 +1,183 @@
+.navbar-main{
+
+    background-color: rgb(65, 58, 57);
+    height: 50px;
+    display: flex;
+    align-items: center;
+justify-content: space-evenly;
+}
+.logo{
+    
+    font-size: 23px;
+    color: white;
+    /* margin-left: 20px; */
+   width: 70%;
+}
+
+.color{
+    color: white;
+
+}
+
+.background-image{
+    background-image: url('/background-iamge.jpg1.jpg');
+    background-size: cover;
+    height: 90vh;
+
+}
+.decoration{
+    
+    text-decoration: none;
+}
+.photo-adjust{
+    height:90svh;
+    width: 198vh;
+}
+.text{
+    position: absolute;
+    top: 30%;
+    left:50;
+   height: 40px;
+    margin-left:2%;
+    justify-content: left;
+    
+}
+.text h1{
+    margin-bottom: 10px;
+    font-size: 3rem;
+    color:white;
+}
+.background-image-content{
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
+.text h1 span{
+    color: rgb(94, 118, 240);
+}
+.text p{
+margin-top: 0.5%;
+color:white;
+font-size: 1.7rem;
+text-align: left;
+}
+.text button{
+    background-color: black;
+    border: 2px solid white;
+    width: 8rem;
+    height: 3rem;
+ 
+}
+
+.button-class
+{
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 35px;
+}
+.box
+{
+    transition: background-color 1.5s;
+    
+ align-content: center;
+    text-align: center;
+    height: 50vh;
+    width: 60vh;
+    border: 2px solid rgb(235, 232, 232)
+   
+}
+.box:hover{
+
+    background-color: red;
+    color: white;
+    cursor:default;
+}
+
+
+
+.about-component-1
+{
+   
+
+    
+
+}
+.about-component-2
+{
+
+
+}
+.about-component-3
+{
+    
+}
+.about-main
+{
+    display: flex;
+justify-content: space-evenly;
+
+}
+.about
+{
+    text-align: center;
+    font-size: 4rem;
+}
+.animate-charcter
+{
+   align-content: center;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 100px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.text-center
+{
+text-align: center;
+}
+.container
+{
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    height: 200px ;
+}
+.hover:hover{
+
+    color: #ff1361;
+    font-size: 1.35rem;
+}
+.box-text{
+border: 1px solid whitesmoke;
+display: flex;
+align-items: center;
+text-align: center;
+    margin-left: 50px;
+    height: 32vh;
+    width: 45vh;
+
+}
+.box-text:hover{
+    font-size: 1.5rem;
+border: 1px solid red;
+
+}
